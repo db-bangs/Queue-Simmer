@@ -66,7 +66,7 @@ shinyUI(fluidPage(
           tags$div(
             "View the source code on ",
             tags$a(href = "https://github.com/db-bangs/Queue-Simmer",
-                   "Github.")
+                   "GitHub.")
           ),
           
           br(),
