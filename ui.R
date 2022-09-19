@@ -10,7 +10,7 @@ library(ggplot2)
 shinyUI(fluidPage(
 
     # Application title
-    titlePanel("Call Centre: Discrete-Event Simulator"),
+    titlePanel("Call Centre Queue: Discrete-Event Simulator"),
 
     # Sidebar with a slider input for number of bins
     sidebarLayout(
@@ -64,7 +64,15 @@ shinyUI(fluidPage(
           br(),
           
           tags$div(
-          "The simulation is performed with package
+            "View the source code on ",
+            tags$a(href = "https://github.com/db-bangs/Queue-Simmer",
+                   "Github.")
+          ),
+          
+          br(),
+          
+          tags$div(
+          "The simulation is created with package
             `simmer` (Ucar et al., 2019). Refer to their ",
           tags$a(href="https://r-simmer.org/",
           "website "),
@@ -72,8 +80,13 @@ shinyUI(fluidPage(
           
           br(),
           
-          p("Ucar I, Smeets B, Azcorra A (2019). “simmer: Discrete-Event Simulation for R.” Journal of Statistical Software, 90(2), 1–30.")
-        ),
+          p("Ucar I, Smeets B, Azcorra A (2019). “simmer: Discrete-Event Simulation for R.” Journal of Statistical Software, 90(2), 1–30."),
+          
+          br(),
+          
+          p("Shiny App by Donovan Bangs - last updated September 19, 2022")
+          
+          ),
 
         # Show a plot of the generated distribution
         mainPanel(
