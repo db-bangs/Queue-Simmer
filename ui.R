@@ -84,8 +84,11 @@ shinyUI(fluidPage(
           
           br(),
           
-          p("Shiny App by Donovan Bangs - last updated September 19, 2022")
-          
+          tags$div(
+            "Shiny App by ",
+            tags$a(href = "https://github.com/db-bangs",
+            "Donovan Bangs "),
+            "- last updated September 19, 2022")
           ),
 
         # Show a plot of the generated distribution
