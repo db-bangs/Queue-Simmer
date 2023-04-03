@@ -7,4 +7,4 @@ Observe how the call centre performs under different conditions, and which stres
 
 See the Kaggle [dataset](https://www.kaggle.com/datasets/donovanbangs/call-centre-queue-simulation) and [notebook](https://www.kaggle.com/code/donovanbangs/call-centre-queue-simulator) for how these simulations can be used to create and analyze a full year's performance.
 
-![shiny_screenshot](https://user-images.githubusercontent.com/98397769/191069393-fbbfc3f4-0210-49de-8e0e-d17030ce721f.jpg)
+![shiny_screenshot_QS](https://user-images.githubusercontent.com/98397769/229516169-5447623d-7572-47eb-8256-31d257bca7e2.png)
